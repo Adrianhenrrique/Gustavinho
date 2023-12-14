@@ -1,0 +1,42 @@
+body {
+    display: block;
+    background: rgba(224, 59, 59, 0.932);
+}
+.collDown {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feliz {
+    width: 20%;
+    height: 20%;
+    margin-top: 25%;
+}
+
+#countdown {
+    margin-top: 50px;
+}
+
+#countdown, .load {
+    font-size: 25px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.load {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 15px;
+    margin-top: 50px;
+}
+
+.load:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
