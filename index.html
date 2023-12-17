@@ -10,16 +10,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
 </head>
 <body>
     <div class="collDown">
-            <img class="feliz" src="./img/" alt="">
+            <img class="feliz" src="./img/emoji_feliz.png" alt="">
             <p id="countdown"></p>
 
             <button class="load">Carregando ...</button>
     </div>
     <div id="card2">
-        <p>test</p>
+        <p class="txt1">Não se é momento certo de falar isso...</p>
+        <div>
+            <img src="./img/nervoso.gif" alt="imagem de nervoso">
+        </div>
+        <button class="next"  onclick="next(1)"> Continue..</button>
+    </div>
+    <div id="card3">
+        <p class="txt1">bem é não dou muito bom com isso faz tempo que tou pensando nisso...</p>
+        <div>
+            <img src="./img/timidos.gif" alt="imagem de nervoso">
+        </div>
+        <button class="next"  onclick="next('2')"> Continue..</button>
+    </div>
+    <div id="card4">
+        <p class="txt1">Tá vou para de enrolar agora vai clique no botão a baixo...E lá vai</p>
+        <div>
+            <img src="./img/nervoso2.gif" alt="imagem de nervoso">
+        </div>
+        <button class="next"  onclick="next('3')">1... 2... 3...</button>
+    </div>
+    <div id="card5">
+        <p class="txt1">Aceitar namorar comigo?<br>
+            me de resposta pfv...&#128525; &#128525;
+        </p>
+        <div>
+            <img src="./img/vergonha-timida.gif" alt="imagem de nervoso">
+        </div>
+        <div class="bnts" onclick="sim()">
+            <a href="https://youtu.be/EMzGVeyCLR0?si=-mapF59do2c40Z9e" target="_blank">
+                <button class="next"  >Sim</button>
+            </a>
+            <a href="https://youtube.com/shorts/o6v78x6wEKE?si=iSNXG5Z66EBQX0B7" target="_blank">
+                <button class="next2"  onclick="não()">Não</button>
+            </a>
+            
+        </div>
     </div>
 
 

@@ -1,0 +1,109 @@
+#card2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.txt1 {
+    font-size: 25px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#card2 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.next {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.next:hover, .next2:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#card3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#card3 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#card4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#card4 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#card5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#card5 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#card5 .next, .next2 {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#card5 .next {
+    background-color: green;
+    color: white;
+}
+
+.next2 {
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+}

@@ -3,8 +3,6 @@ body {
     background: rgba(224, 59, 59, 0.932);
 }
 .collDown {
-    height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
